@@ -4,7 +4,6 @@ import { BsChevronDown } from "react-icons/bs"
 import { useSelector } from "react-redux"
 import { Link, matchPath, useLocation } from "react-router-dom"
 
-import logo from "../../assets/Logo/Logo-Full-Light.png"
 import logo2 from "../../assets/Logo/new_logo.svg"
 import { NavbarLinks } from "../../data/navbar-links"
 import { apiConnector } from "../../services/apiconnector"

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import ProgressBar from "@ramonak/react-progress-bar"
-import { BiDotsVerticalRounded } from "react-icons/bi"
+
 import { useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
 import { jsPDF } from "jspdf";
@@ -26,6 +26,7 @@ export default function EnrolledCourses() {
   };
   useEffect(() => {
     getEnrolledCourses();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   const generateCertificate = (courseName) => {
 
