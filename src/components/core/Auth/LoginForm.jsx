@@ -39,6 +39,13 @@ function LoginForm() {
           <div>Email: test@skillcraft.com</div>
           <div>Password: Admin@123</div>
         </div>
+        <div>
+            For instructor testing purpose only
+        </div>
+        <div className="flex flex-col gap-2">
+          <div>Email: angelayu@gmail.com</div>
+          <div>Password: Admin@123</div>
+        </div>
       </div>
       <form
         onSubmit={handleOnSubmit}
